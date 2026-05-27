@@ -1,0 +1,11 @@
+timestamp,download_mbps,upload_mbps,ping_ms,custom_ping_ms,packet_loss_pct,server_name,server_sponsor,server_country
+2026-05-26T16:47:10.079578,287.0,16.93,29.44,178.0,0.0,"Palo Alto, CA",Etheric Networks,United States
+2026-05-26T16:49:19.157053,350.97,20.6,32.12,23.0,0.0,"Palo Alto, CA",Etheric Networks,United States
+2026-05-26T16:52:28.459089,355.97,24.29,27.41,18.0,0.0,"Santa Clara, CA","KamaTera, Inc.",United States
+2026-05-26T16:53:54.749611,566.92,38.47,23.76,19.0,0.0,"San Jose, CA",Asymptote Network,United States
+2026-05-26T16:55:25.586501,290.36,36.83,25.13,17.0,0.0,"Fremont, CA",SiteHUB Agency,United States
+2026-05-26T16:56:53.184034,468.77,39.95,25.54,18.0,0.0,"San Jose, CA",Asymptote Network,United States
+2026-05-26T16:58:23.956491,237.78,39.3,26.95,21.0,0.0,"Fremont, CA",SiteHUB Agency,United States
+2026-05-26T16:59:54.494885,326.67,39.68,26.91,15.0,0.0,"San Jose, CA",Sonic,United States
+2026-05-26T17:01:25.091311,319.68,40.33,26.39,18.0,0.0,"San Jose, CA",Asymptote Network,United States
+2026-05-26T17:02:18.469661,305.04,40.2,27.2,35.32,0.0,"Santa Clara, CA","KamaTera, Inc.",United States

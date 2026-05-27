@@ -1,0 +1,16 @@
+timestamp,download_mbps,upload_mbps,ping_ms,custom_ping_ms,packet_loss_pct,server_name,server_sponsor,server_country
+2026-05-26T17:04:31.925676,326.71,40.52,27.1,25.58,0.0,"Santa Clara, CA","KamaTera, Inc.",United States
+2026-05-26T17:06:03.641665,312.64,37.93,28.54,24.67,0.0,"Fremont, CA",SiteHUB Agency,United States
+2026-05-26T17:07:33.679499,390.01,39.29,25.96,25.77,0.0,"Santa Clara, CA","KamaTera, Inc.",United States
+2026-05-26T17:08:23.096566,377.51,41.57,25.87,24.3,0.0,"San Jose, CA",Sonic,United States
+2026-05-26T17:09:06.009335,518.05,41.36,24.2,23.21,0.0,"San Jose, CA",Asymptote Network,United States
+2026-05-26T17:10:14.125276,549.75,32.29,26.27,23.88,0.0,"San Jose, CA",Asymptote Network,United States
+2026-05-26T17:10:53.608794,372.6,41.18,25.55,24.89,0.0,"Santa Clara, CA","KamaTera, Inc.",United States
+2026-05-26T17:11:29.770504,352.05,38.62,27.08,22.24,0.0,"Santa Clara, CA","KamaTera, Inc.",United States
+2026-05-26T17:12:06.315168,312.74,36.66,23.86,21.5,0.0,"San Jose, CA",Sonic,United States
+2026-05-26T17:12:47.551107,406.92,36.69,24.0,23.13,0.0,"San Jose, CA",Sonic,United States
+2026-05-26T17:13:24.200392,314.9,40.95,26.18,20.65,0.0,"Fremont, CA",SiteHUB Agency,United States
+2026-05-26T17:13:58.611674,480.39,38.75,24.31,19.71,0.0,"San Jose, CA",Sonic,United States
+2026-05-26T17:14:35.189398,294.36,41.54,25.55,20.2,0.0,"San Jose, CA",Sonic,United States
+2026-05-26T17:15:09.703444,407.97,36.97,23.21,21.05,0.0,"Santa Clara, CA","KamaTera, Inc.",United States
+2026-05-26T17:15:42.288525,552.12,30.67,27.3,19.41,0.0,"San Jose, CA",Asymptote Network,United States
