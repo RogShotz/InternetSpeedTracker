@@ -18,8 +18,22 @@ A lightweight Python wrapper around the official **Ookla Speedtest CLI** that mo
 ## Requirements
 
 - Python 3.8+
-- [Ookla Speedtest CLI](https://www.speedtest.net/apps/cli) — place `speedtest.exe` in `ookla/speedtest.exe`
 - `pip install matplotlib`
+- Ookla Speedtest CLI — see install instructions below
+
+### Installing the Ookla CLI
+
+**Windows** — place `speedtest.exe` in `ookla/speedtest.exe`, or:
+```powershell
+winget install Ookla.Speedtest
+```
+
+**Ubuntu / Debian:**
+```bash
+sudo apt-get install -y curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install -y speedtest
+```
 
 ---
 

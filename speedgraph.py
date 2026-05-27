@@ -37,21 +37,22 @@ def apply_theme():
         "axes.edgecolor":    GRID,
         "axes.labelcolor":   SUBTEXT,
         "axes.titlecolor":   TEXT,
-        "axes.titlesize":    10,
+        "axes.titlesize":    13,
         "axes.titleweight":  "bold",
         "axes.titlepad":     10,
+        "axes.labelsize":    11,
         "axes.grid":         True,
         "grid.color":        GRID,
         "grid.linewidth":    0.6,
         "xtick.color":       SUBTEXT,
         "ytick.color":       SUBTEXT,
-        "xtick.labelsize":   7,
-        "ytick.labelsize":   7,
+        "xtick.labelsize":   10,
+        "ytick.labelsize":   10,
         "text.color":        TEXT,
         "legend.facecolor":  PANEL,
         "legend.edgecolor":  GRID,
         "legend.labelcolor": TEXT,
-        "legend.fontsize":   8,
+        "legend.fontsize":   10,
         "lines.linewidth":   1.8,
         "lines.markersize":  4,
     })
@@ -84,7 +85,7 @@ def _fmt_axes(ax):
     date_fmt = mdates.DateFormatter("%m/%d %H:%M")
     ax.xaxis.set_major_formatter(date_fmt)
     ax.xaxis.set_major_locator(mdates.AutoDateLocator())
-    plt.setp(ax.xaxis.get_majorticklabels(), rotation=30, ha="right")
+    plt.setp(ax.xaxis.get_majorticklabels(), rotation=30, ha="right", fontsize=10)
     ax.spines[["top", "right"]].set_visible(False)
     ax.spines[["left", "bottom"]].set_color(GRID)
 
@@ -97,9 +98,9 @@ def _stat_box(fig, x, y, label, value, color):
                                 boxstyle="round,pad=0.05", facecolor=PANEL,
                                 edgecolor=color, linewidth=1.2, clip_on=False))
     ax.text(0.5, 0.72, label, transform=ax.transAxes,
-            ha="center", va="center", fontsize=7, color=SUBTEXT)
+            ha="center", va="center", fontsize=9, color=SUBTEXT)
     ax.text(0.5, 0.28, value, transform=ax.transAxes,
-            ha="center", va="center", fontsize=11, color=color, fontweight="bold")
+            ha="center", va="center", fontsize=13, color=color, fontweight="bold")
 
 
 def draw(fig, rows, title):
@@ -126,11 +127,11 @@ def draw(fig, rows, title):
 
     # Title + subtitle
     fig.text(0.5, 0.965, title, ha="center", va="top",
-             fontsize=15, fontweight="bold", color=TEXT)
+             fontsize=18, fontweight="bold", color=TEXT)
     server_label = rows[-1]["server"] if rows[-1]["server"] else ""
     span = f"{timestamps[0].strftime('%b %d')} – {timestamps[-1].strftime('%b %d, %Y')}  ·  {len(rows)} samples"
     fig.text(0.5, 0.945, f"{span}   {('· ' + server_label) if server_label else ''}",
-             ha="center", va="top", fontsize=8, color=SUBTEXT)
+             ha="center", va="top", fontsize=10, color=SUBTEXT)
 
     # Stat cards row
     cards = [

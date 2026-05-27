@@ -12,8 +12,9 @@ import sys
 import time
 from datetime import datetime
 
-SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
-SPEEDTEST_EXE = os.path.join(SCRIPT_DIR, "ookla", "speedtest.exe")
+SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
+IS_WINDOWS    = sys.platform == "win32"
+SPEEDTEST_EXE = os.path.join(SCRIPT_DIR, "ookla", "speedtest.exe") if IS_WINDOWS else None
 
 
 PING_HOST = "8.8.8.8"
@@ -71,6 +72,8 @@ def monitor(speed_output, outage_output, fmt, speed_interval, extra_args):
         except RuntimeError as e:
             if "RATE_LIMITED" in str(e):
                 print(f"  [{datetime.now().strftime('%H:%M:%S')}] Rate limited by Ookla — skipping test, will retry next interval.")
+            elif "NO_CONNECTION" in str(e):
+                print(f"  [{datetime.now().strftime('%H:%M:%S')}] No connection during speed test — skipping.")
             else:
                 print(f"  Speed test failed: {e}")
         except Exception as e:
@@ -135,16 +138,25 @@ def monitor(speed_output, outage_output, fmt, speed_interval, extra_args):
 
 
 def find_speedtest():
-    if os.path.isfile(SPEEDTEST_EXE):
+    if SPEEDTEST_EXE and os.path.isfile(SPEEDTEST_EXE):
         return SPEEDTEST_EXE
     found = shutil.which("speedtest")
     if found:
         return found
-    print(
-        "Ookla speedtest CLI not found.\n"
-        f"Place speedtest.exe in: {SPEEDTEST_EXE}\n"
-        "Or install via: winget install Ookla.Speedtest"
-    )
+    if IS_WINDOWS:
+        print(
+            "Ookla speedtest CLI not found.\n"
+            f"Place speedtest.exe in: {os.path.join(SCRIPT_DIR, 'ookla', 'speedtest.exe')}\n"
+            "Or install via: winget install Ookla.Speedtest"
+        )
+    else:
+        print(
+            "Ookla speedtest CLI not found.\n"
+            "Install via:\n"
+            "  sudo apt-get install -y curl\n"
+            "  curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash\n"
+            "  sudo apt-get install -y speedtest"
+        )
     sys.exit(1)
 
 
@@ -158,7 +170,9 @@ def run_once(extra_args, verbose=True):
     if proc.returncode != 0:
         err = proc.stderr.strip()
         if "Limit reached" in err or "Too many requests" in err:
-            raise RuntimeError(f"RATE_LIMITED")
+            raise RuntimeError("RATE_LIMITED")
+        if "HostNotFoundException" in err or "ConfigurationError" in err or "WSA Error" in err:
+            raise RuntimeError("NO_CONNECTION")
         raise RuntimeError(f"speedtest CLI failed:\n{err}")
 
     res = json.loads(proc.stdout)
@@ -300,6 +314,8 @@ def main():
         except RuntimeError as e:
             if "RATE_LIMITED" in str(e):
                 print("Rate limited by Ookla — try again in a few minutes.")
+            elif "NO_CONNECTION" in str(e):
+                print("No connection — check your internet and try again.")
             else:
                 print(e)
 
@@ -316,6 +332,8 @@ def main():
             except RuntimeError as e:
                 if "RATE_LIMITED" in str(e):
                     print(f"  Rate limited by Ookla — skipping, next test in {args.interval}s.")
+                elif "NO_CONNECTION" in str(e):
+                    print(f"  No connection during speed test — skipping, next test in {args.interval}s.")
                 else:
                     print(f"  Error: {e}")
                 time.sleep(args.interval)
