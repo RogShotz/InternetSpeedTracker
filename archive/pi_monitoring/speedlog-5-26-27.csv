@@ -1,0 +1,45 @@
+timestamp,download_mbps,upload_mbps,ping_ms,jitter_ms,packet_loss_pct,server_id,server_name,server_location,server_country,result_url
+2026-05-27T00:09:09.788508,926.61,41.08,20.416,1.072,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/aa09e78f-8ec3-4dd9-bb1d-e54e807990ce
+2026-05-27T00:24:09.997808,928.97,32.73,15.873,3.297,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/f42818b1-95d1-4644-b20a-17ab2b3b8017
+2026-05-27T00:39:03.919452,929.32,40.49,20.876,2.372,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/c187336b-c6ff-4b1d-af73-eb52c6460fba
+2026-05-27T00:54:05.024437,399.38,41.25,24.199,0.483,0,47256,"Surfnet Communications, Inc","San Luis Obispo, CA",United States,https://www.speedtest.net/result/c/e02886e0-0030-4dc3-8dea-f7cf7fb76bc4
+2026-05-27T01:09:08.961760,365.73,24.58,27.218,0.877,0,47256,"Surfnet Communications, Inc","San Luis Obispo, CA",United States,https://www.speedtest.net/result/c/5e4f7f26-a27c-427c-aa7f-98eb87f4ec07
+2026-05-27T01:24:13.856292,204.76,39.17,20.975,0.353,0,40986,Internet 3.14,"Reedley, CA",United States,https://www.speedtest.net/result/c/bd16b9fc-4d78-4e13-8565-c48a5845fb3a
+2026-05-27T01:39:12.533666,925.92,36.47,21.718,0.565,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/cf2ed7af-3e9d-44fd-9f51-581eed15020a
+2026-05-27T01:54:05.136394,927.42,41.15,19.776,2.163,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/4be0277e-0257-4694-9e9c-bddf99f05dd4
+2026-05-27T02:09:07.428657,928.22,41.09,14.488,2.275,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/bb32cc1b-c8b1-41da-9d03-6c857d804791
+2026-05-27T02:24:05.392454,928.5,41.21,20.158,0.756,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/69770958-2302-45ab-9163-572f04590e8e
+2026-05-27T02:39:14.579981,213.27,41.64,20.535,0.476,0,40986,Internet 3.14,"Reedley, CA",United States,https://www.speedtest.net/result/c/83a912bc-52fd-4d64-af42-84829ec734c0
+2026-05-27T02:54:07.975267,928.39,41.13,14.805,0.734,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/8e571988-b5a1-4496-898f-78b4c81e65ae
+2026-05-27T03:09:06.079003,928.89,41.49,20.354,2.532,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/13f7c6b5-fc4f-475f-818b-04bba26b202e
+2026-05-27T03:24:09.118284,365.82,42.07,26.753,1.959,0,47256,"Surfnet Communications, Inc","San Luis Obispo, CA",United States,https://www.speedtest.net/result/c/8edf589b-03b3-4e94-8534-c216c113b90d
+2026-05-27T03:39:10.993305,928.33,39.62,13.762,1.306,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/978103cc-b5ce-47c3-921d-1ab3e2c9fc40
+2026-05-27T03:54:07.744804,929.38,41.16,20.002,0.381,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/c74457fa-a9e3-4b7f-ac6a-b820e6b97bff
+2026-05-27T04:09:07.175398,930.11,40.99,13.884,0.51,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/8f6a18a7-d1d1-4768-911f-d2cdf8a0cfe8
+2026-05-27T04:24:09.600828,927.85,41.07,20.266,0.454,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/e0b66023-15dc-4439-b17b-34ccc71217ac
+2026-05-27T04:39:09.025699,929.27,41.05,20.121,0.718,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/3db7de62-5fa8-4394-9a3e-1ade4be706d3
+2026-05-27T04:54:18.778796,361.85,41.6,24.573,0.345,0,47256,"Surfnet Communications, Inc","San Luis Obispo, CA",United States,https://www.speedtest.net/result/c/33a2e456-b345-437a-a369-0531feede70b
+2026-05-27T05:09:11.338545,926.62,40.78,20.236,0.662,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/c2ef5de5-fae6-432b-a5e2-10f564224030
+2026-05-27T05:24:11.702992,927.92,41.1,19.921,0.409,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/70e5dd72-fa35-4c4e-bb67-fb4744002534
+2026-05-27T05:39:12.731184,928.33,40.77,12.841,0.215,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/5ce0e9e4-63ba-4973-a93f-ca6736752b0e
+2026-05-27T05:54:15.086083,930.63,41.08,13.691,0.968,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/f7e08b2f-3b91-41dc-9051-f2d27ca535ba
+2026-05-27T06:09:15.199179,927.58,41.26,19.783,0.412,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/882b4b1a-8692-4733-afd6-b2280d8806a8
+2026-05-27T06:24:14.094076,929.76,39.5,19.668,0.475,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/de11b640-ce40-49e9-8627-4caf6bdde8a7
+2026-05-27T06:39:15.027355,924.19,38.66,14.656,3.413,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/489262f4-bd06-4496-a9c9-bb557692489e
+2026-05-27T06:54:18.410491,928.3,41.0,20.384,2.884,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/39602c1d-becf-4bdb-ab18-d8f1ed68a30a
+2026-05-27T07:09:17.135098,174.32,39.19,21.038,1.381,0,40986,Internet 3.14,"Reedley, CA",United States,https://www.speedtest.net/result/c/67ba3727-37a0-41f0-ab4a-51d7072786c0
+2026-05-27T07:24:20.961283,931.79,41.53,14.004,1.502,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/21ecdb3e-0ba2-466d-bb8c-374ed89717ef
+2026-05-27T07:39:22.289120,927.35,37.83,14.241,0.676,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/fb7da5a0-c4dd-489e-9a7b-4913ce4d0a70
+2026-05-27T07:54:17.804048,925.94,41.26,20.661,1.133,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/019296a7-fe0d-4816-8842-019c730896ee
+2026-05-27T08:09:18.694036,929.31,40.99,20.251,3.885,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/a066c034-2090-4aad-9496-aaa0bf66a80c
+2026-05-27T08:24:24.730613,199.94,41.68,21.161,0.827,0,40986,Internet 3.14,"Reedley, CA",United States,https://www.speedtest.net/result/c/ceb20f67-77f4-43a7-8624-7c08bc45427e
+2026-05-27T08:39:21.924794,922.76,20.62,17.476,1.553,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/9a4f9fa6-61aa-48df-87a3-cd6f0dd606e4
+2026-05-27T08:54:19.437761,166.19,41.08,21.048,0.706,0,40986,Internet 3.14,"Reedley, CA",United States,https://www.speedtest.net/result/c/0527d677-c035-4ab6-bfe9-37d7d4644db6
+2026-05-27T09:09:20.372173,929.89,41.08,21.633,4.339,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/b2564626-69ac-4618-9540-3ac48cdb96cb
+2026-05-27T09:24:22.319519,928.25,40.8,15.81,4.182,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/080b7f1b-42d3-447a-8d1b-46f3ade6c18e
+2026-05-27T09:39:20.606471,927.54,40.75,21.316,2.523,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/8528fceb-3008-4e0a-936c-81613a9a7883
+2026-05-27T09:54:26.115459,195.12,41.34,26.775,5.548,0,40986,Internet 3.14,"Reedley, CA",United States,https://www.speedtest.net/result/c/2d84df4d-b990-4fa5-b076-6dae1c1e9685
+2026-05-27T10:09:24.661459,912.55,40.75,16.558,2.338,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/60ab0308-34f1-4fe7-a85e-c1037f8bff37
+2026-05-27T10:24:29.856281,939.34,40.89,27.405,2.543,0,14236,Frontier,"Los Angeles, CA",United States,https://www.speedtest.net/result/c/8c29a483-2904-481a-8490-8dab646c76d7
+2026-05-27T10:39:24.699740,927.39,40.95,15.781,1.484,,73169,Comcast,"Santa Clara, CA",United States,https://www.speedtest.net/result/c/e9bae077-987f-44c3-abe2-5c7b71254b96
+2026-05-27T10:54:23.291038,145.51,40.66,20.511,1.987,0,40986,Internet 3.14,"Reedley, CA",United States,https://www.speedtest.net/result/c/77266f0b-aea0-4c8f-80e1-eae1b4142f93
